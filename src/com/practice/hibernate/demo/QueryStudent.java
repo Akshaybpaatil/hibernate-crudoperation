@@ -58,7 +58,7 @@ public class QueryStudent {
 			//commit transaction
 			session.getTransaction().commit();
 			
-			System.out.println("Done!");
+			System.out.println("Done successfully!");
 			
 		}
 		finally {
